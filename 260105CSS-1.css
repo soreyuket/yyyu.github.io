@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+body{
+	/*背景色をグラデ*/
+	background: linear-gradient(72deg,#909090,#1d2088);
+	color: #CCCCCC;
+}
+
+
+h1{
+	margin-left:80px;
+	font: "MS Serif", "New York", "serif";	
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 300%;
+    font-weight: bold;
+    display: inline-block;
+	animation: 5s h1 linear infinite;
+    text-align: center;/*水平方向の中央揃え */
+}
+#tytle{
+	transition: color 0.5s ease;
+	
+}
+
+
+button1{
+
+	margin-left:220px;
+	/*text-align: center;/*水平方向の中央揃え */
+	
+	color:white;
+	background:linear-gradient(to right,#3D7BE8,#1d2088);
+	font-size: 700%;
+	font-weight: bold;
+}
+button1:hover{
+	color: blue;
+	transition:0.8s;
+}
+
+
+p{
+	margin: 100px;
+	position:relative;
+		bottom:0;
+	
+	/*text-align: center;/*水平方向の中央揃え */*/
+	
+	
+}
+
+Linktext{
+	margin-left:220px;
+}
+
+Linktext:hover{
+	color: blue;
+	
+	text-decoration:underline;
+	transition:0.8s;
+}
