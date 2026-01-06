@@ -1,73 +1,51 @@
-
-
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>260105_1</title>
 <link href="260105CSS-1.css" rel="stylesheet" type="text/css">
-	<style media="screen"></style>
+    <style media="screen"></style>
 </head>
 
-			<body id=BG style="background-color:#909090;">
-				<h1 id="tytle">試しになんかつくる</h1>
-				<div></div>
-				<button1 onclick="clickDisplayAlert1();buttonClick()">???</button1>
-						<script>
-				  		  function clickDisplayAlert1() {
-				 		     alert("押したね。押しましたね。ボタンを。ありがとう。");
-				 		   }
-							function buttonClick() {
-							  var bg = document.getElementById('BG');
-							
-							  if (bg.style.backgroundColor === 'rgb(0, 0, 255)') {
-							    bg.style.backgroundColor = '#909090'; // 元の色
-							  } else {
-							    bg.style.backgroundColor = '#0000ff'; // 青
-							  }
-							}
-						</script>
-								
-							
-				<p onclick="clickDisplayAlert2();">↑onclickを指定しているのですが、なぜうごかない？？？</p>
-			         	<script>
-				  		  function clickDisplayAlert2() {
-				 		     alert("動かせて嬉しいんだけどアラートしか出せないよ～　あと要素の位置の指定の仕方一生わからないよ");
-				 		   }
-						</script>
-				<div></div>
+            <body bgcolor="#909090" id=BG >
+                <h1 id="tytle">試しになんかつくる</h1>
+                <div></div>
+                <button1 onclick="clickDisplayAlert1();buttonClick('#0000ff')">???</button1>
+                        <script>
+                            function clickDisplayAlert1() {
+                              alert("押したね。押しましたね。ボタンを。ありがとう。");
+                            }
+                            function buttonClick( newColor ){
+                            document.getElementById('BG').style.background = newColor;
+                             }
+                        </script>
 
-				
-				<p2>このサイトはれんしゅうのためにつくられています。</p2>
-				<Linktext onclick="location.href='https://x.com/yuket_00'">練習している人</Linktext>
-				</body>
-	
-		<script>
-		function ShowAleat() {
-			alert("hello world!!");
-		}
-		</script>
-	
-	<!--<script src="260105JS-1.js"></script>
 
-	<script>
-		function ShowAlert(){
-			alert('hello world!!');
-		}
-		</script>-->
+                <p onclick="clickDisplayAlert2();">↑onclickを指定しているのですが、なぜうごかない？？？</p>
+                         <script>
+                            function clickDisplayAlert2() {
+                              alert("動かせて嬉しいんだけどアラートしか出せないよ～　あと要素の位置の指定の仕方一生わからないよ");
+                            }
+                        </script>
+                <div></div>
+
+
+                <p2>このサイトはれんしゅうのためにつくられています。</p2>
+                <Linktext onclick="location.href='https://x.com/yuket_00'">練習している人</Linktext>
+                </body>
+
+        <script>
+        function ShowAleat() {
+            alert("hello world!!");
+        }
+        </script>
+
+    <!--<script src="260105JS-1.js"></script>
+
+    <script>
+        function ShowAlert(){
+            alert('hello world!!');
+        }
+        </script>-->
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
