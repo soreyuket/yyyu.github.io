@@ -26,6 +26,20 @@ h1{
 	animation: 5s h1 linear infinite;
     text-align: center;/*水平方向の中央揃え */
 }
+
+h1:hover{
+	margin-left:80px;
+	font: "MS Serif", "New York", "serif";	
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 600%;
+    font-weight: bold;
+    display: inline-block;
+	animation: 5s h1 linear infinite;
+    text-align: center;/*水平方向の中央揃え */
+}
+
 #tytle{
 	transition: color 0.5s ease;
 	
@@ -128,6 +142,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
