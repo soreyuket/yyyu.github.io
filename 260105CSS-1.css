@@ -10,6 +10,16 @@ body{
 	color: #CCCCCC;
 }
 
+body.is-blue {
+  background-color: #0000ff;
+  transition: background-color 0.5s;
+
+body.is-brack {
+  background-color: brack;
+  transition: background-color 0.5s;
+
+	
+
 
 h1{
 	margin-left:80px;
@@ -125,6 +135,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
