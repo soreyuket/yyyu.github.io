@@ -74,9 +74,16 @@ p{
 		bottom:0;
 	
 	/*text-align: center;/*水平方向の中央揃え */*/
-	
-	
 }
+
+p:hover{
+	color: blue;
+	
+	text-decoration:underline;
+	font-size: 300%;
+	transition:0.8s;
+}
+
 
 Linktext{
 	margin-left:220px;
@@ -88,6 +95,7 @@ Linktext:hover{
 	text-decoration:underline;
 	transition:0.8s;
 }
+
 
 
 
