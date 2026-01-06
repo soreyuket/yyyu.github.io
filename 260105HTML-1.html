@@ -7,14 +7,17 @@
 	<style media="screen"></style>
 </head>
 
-			<body bgcolor="#909090">
+			<body bgcolor="#909090" id=BG >
 				<h1 id="tytle">試しになんかつくる</h1>
 				<div></div>
-				<button1 onclick="clickDisplayAlert1();">???</button1>
+				<button1 onclick="clickDisplayAlert1();buttonClick('#0000ff')">???</button1>
 						<script>
 				  		  function clickDisplayAlert1() {
 				 		     alert("押したね。押しましたね。ボタンを。ありがとう。");
 				 		   }
+							function buttonClick( newColor ){     
+document.getElementById('BG').style.background = newColor;
+       }
 						</script>
 								
 							
@@ -46,6 +49,7 @@
 		</script>-->
 
 </html>
+
 
 
 
