@@ -132,16 +132,6 @@ box2{
 
 
 
-body.is-blue {
-  background-color: blue;
-  transition: background-color 0.5s;
-}
-
-body.is-brack {
-  background-color: brack;
-  transition: background-color 0.5s;
-}
-
 
 
 
