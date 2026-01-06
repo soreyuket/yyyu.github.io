@@ -9,6 +9,12 @@ body{
 	background: linear-gradient(72deg,#909090,#1d2088);
 	color: #CCCCCC;
 }
+body.is-brack {
+	/*背景色をグラデ*/
+	background: linear-gradient(72deg,#000000,#808080);
+	color: #CCCCCC;
+}
+
 
 
 	
@@ -142,6 +148,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
