@@ -11,7 +11,7 @@ body{
 }
 
 body.is-blue {
-  background-color: #0000ff;
+  background-color: blue;
   transition: background-color 0.5s;
 
 body.is-brack {
@@ -135,6 +135,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
