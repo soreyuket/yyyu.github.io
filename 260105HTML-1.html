@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html>
 <head>
@@ -7,16 +9,22 @@
 	<style media="screen"></style>
 </head>
 
-			<body bgcolor="#909090" id=BG >
+			<body id=BG style="background-color:#909090;">
 				<h1 id="tytle">試しになんかつくる</h1>
 				<div></div>
-				<button1 onclick="clickDisplayAlert1();toggleBg()">???</button1>
+				<button onclick="clickDisplayAlert1();buttonClick()">???</button>
 						<script>
 				  		  function clickDisplayAlert1() {
 				 		     alert("押したね。押しましたね。ボタンを。ありがとう。");
 				 		   }
-							function toggleBg() {
-							  document.getElementById('BG').classList.toggle("dark");
+							function buttonClick() {
+							  var bg = document.getElementById('BG');
+							
+							  if (bg.style.backgroundColor === 'rgb(0, 0, 255)') {
+							    bg.style.backgroundColor = '#909090'; // 元の色
+							  } else {
+							    bg.style.backgroundColor = '#0000ff'; // 青
+							  }
 							}
 						</script>
 								
@@ -30,7 +38,7 @@
 				<div></div>
 
 				
-				<p>このサイトはれんしゅうのためにつくられています。</p>
+				<p2>このサイトはれんしゅうのためにつくられています。</p2>
 				<Linktext onclick="location.href='https://x.com/yuket_00'">練習している人</Linktext>
 				</body>
 	
