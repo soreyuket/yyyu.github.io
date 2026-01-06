@@ -45,6 +45,13 @@ button1:hover{
 }
 
 
+.dark {
+  background-color: black;
+}
+
+
+
+
 
 #toggle + .label::after {
   content: "クリック前（checkbox OFF）";
@@ -95,6 +102,7 @@ Linktext:hover{
 	text-decoration:underline;
 	transition:0.8s;
 }
+
 
 
 
