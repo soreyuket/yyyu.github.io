@@ -43,9 +43,30 @@ button1:hover{
 	color: blue;
 	transition:0.8s;
 }
-button1:active{
-	background-color: red;
+
+
+
+
+
+#toggle {
+  display: none;
 }
+
+#toggle + .label::after {
+  content: "クリック前（checkbox OFF）";
+}
+
+#toggle:checked + .label::after {
+  content: "クリック後（checkbox ON）";
+}
+
+
+
+
+
+
+
+
 
 p{
 	margin: 100px;
@@ -67,4 +88,5 @@ Linktext:hover{
 	text-decoration:underline;
 	transition:0.8s;
 }
+
 
