@@ -77,7 +77,7 @@ p{
 }
 
 p:hover{
-	color: blue;
+	color: red;
 	
 	text-decoration:underline;
 	font-size: 300%;
@@ -95,6 +95,7 @@ Linktext:hover{
 	text-decoration:underline;
 	transition:0.8s;
 }
+
 
 
 
