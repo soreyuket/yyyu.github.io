@@ -30,10 +30,8 @@ h1{
 
 
 button1{
-
 	margin-left:220px;
 	/*text-align: center;/*水平方向の中央揃え */
-	
 	color:white;
 	background:linear-gradient(to right,#3D7BE8,#1d2088);
 	font-size: 700%;
@@ -109,6 +107,7 @@ Linktext:hover{
 	text-decoration:underline;
 	transition:0.8s;
 }
+
 
 
 
