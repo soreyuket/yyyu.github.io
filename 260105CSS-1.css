@@ -40,11 +40,11 @@ h1:hover{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 600%;
+	transition:2s;
     font-weight: bold;
     display: inline-block;
-	animation: 5s h1 linear infinite;
     text-align: center;/*水平方向の中央揃え */
-	transition:2s;
+	
 }
 
 #tytle{
@@ -149,6 +149,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
