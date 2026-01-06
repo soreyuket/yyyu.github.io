@@ -29,7 +29,7 @@ h1{
 }
 
 
-button1{
+button{
 
 	margin-left:220px;
 	/*text-align: center;/*水平方向の中央揃え */
@@ -39,15 +39,13 @@ button1{
 	font-size: 700%;
 	font-weight: bold;
 }
-button1:hover{
+button:hover{
 	color: blue;
 	transition:0.8s;
 }
 
 
-.dark {
-  background-color: black;
-}
+
 
 
 
@@ -111,6 +109,7 @@ Linktext:hover{
 	text-decoration:underline;
 	transition:0.8s;
 }
+
 
 
 
