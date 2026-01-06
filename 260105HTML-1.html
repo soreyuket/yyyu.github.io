@@ -10,14 +10,14 @@
 			<body bgcolor="#909090" id=BG >
 				<h1 id="tytle">試しになんかつくる</h1>
 				<div></div>
-				<button1 onclick="clickDisplayAlert1();buttonClick('#0000ff')">???</button1>
+				<button1 onclick="clickDisplayAlert1();toggleBg()">???</button1>
 						<script>
 				  		  function clickDisplayAlert1() {
 				 		     alert("押したね。押しましたね。ボタンを。ありがとう。");
 				 		   }
-							function buttonClick( newColor ){     
-document.getElementById('BG').style.background = newColor;
-       }
+							function toggleBg() {
+							  document.getElementById('BG').classList.toggle("dark");
+							}
 						</script>
 								
 							
@@ -49,6 +49,7 @@ document.getElementById('BG').style.background = newColor;
 		</script>-->
 
 </html>
+
 
 
 
