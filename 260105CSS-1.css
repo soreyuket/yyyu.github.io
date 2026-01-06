@@ -58,6 +58,12 @@ button1:hover{
 
 #toggle:checked + .label::after {
   content: "クリック後（checkbox ON）";
+	background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 300%;
+    font-weight: bold;
+    display: inline-block;
 }
 
 
@@ -88,5 +94,6 @@ Linktext:hover{
 	text-decoration:underline;
 	transition:0.8s;
 }
+
 
 
