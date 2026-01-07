@@ -113,6 +113,13 @@ p:hover{
 	font-size: 300%;
 	transition:0.8s;
 }
+p.is-red{
+	color: red;
+	
+	text-decoration:underline;
+	font-size: 300%;
+	transition:0.8s;
+}
 
 
 p2{
@@ -152,6 +159,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
