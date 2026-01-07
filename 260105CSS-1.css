@@ -52,7 +52,7 @@ h1 {
 
 h1:hover {
   font-size: 600%;
-  -webkit-text-fill-color: blue;
+  /*-webkit-text-fill-color: blue;*/
 }
 
 
@@ -202,6 +202,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
