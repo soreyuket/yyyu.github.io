@@ -35,18 +35,19 @@ h1{
     font-weight: bold;
     display: inline-block;
 	animation: 5s h1 linear infinite;
-	@keyframes h1 {
+@keyframes h1 {
   0%   { background-position: 0% 50%; }
   100% { background-position: 100% 50%; }
 }
 	background-size: 200% 200%;
     text-align: center;/*水平方向の中央揃え */
+	 transition: font-size 0.8s;
 }
+
 
 h1:hover{
 	font-size: 600%;
 	color: blue;
-	transition:0.8s;
 	
 }
 
@@ -159,6 +160,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
