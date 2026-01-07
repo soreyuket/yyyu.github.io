@@ -22,9 +22,48 @@ body.is-brack {
 
 
 
+
+
+
+
+h1 {
+  font-family: "MS Serif", "New York", serif;
+  background: linear-gradient(
+    to right,
+    #e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783
+  );
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 300%;
+  font-weight: bold;
+  display: inline-block;
+
+  animation: h1 5s linear infinite;
+  transition: font-size 0.8s;
+}
+
+@keyframes h1 {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+h1:hover {
+  font-size: 600%;
+  -webkit-text-fill-color: blue;
+}
+
+
+
+
+
+
+
+
 	
 
-
+/*
 h1{
 	margin-left:80px;
 	font-family: "MS Serif", "New York", serif;
@@ -48,8 +87,10 @@ h1{
 h1:hover{
 	font-size: 600%;
 	color: blue;
-	
-}
+}*/
+
+
+
 
 #tytle{
 	transition: color 0.5s ease;
@@ -160,6 +201,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
