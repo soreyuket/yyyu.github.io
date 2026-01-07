@@ -27,7 +27,7 @@ body.is-brack {
 
 h1{
 	margin-left:80px;
-	font: "MS Serif", "New York", "serif";	
+	font-family: "MS Serif", "New York", serif;
     background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -35,6 +35,11 @@ h1{
     font-weight: bold;
     display: inline-block;
 	animation: 5s h1 linear infinite;
+	@keyframes h1 {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+	background-size: 200% 200%;
     text-align: center;/*水平方向の中央揃え */
 }
 
@@ -147,6 +152,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
