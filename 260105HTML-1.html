@@ -10,10 +10,12 @@
             <body bgcolor="#909090" id=BG >
                 <h1 id="tytle">試しになんかつくる</h1>
                 <div></div>
+                <audio id="M1sound" src="ドアを開ける2.mp3"></audio>
                 <button1 id="dekaBtn" onclick="clickDisplayAlert1();buttonClick('#0000ff')">???</button1>
                         <script>
                             document.getElementById("dekaBtn").onclick = function () {
                               alert("押したね。押しましたね。ボタンを。ありがとう。");
+                              document.getElementById("KKsound").play();
                             }
                             function buttonClick( newColor ){
                             document.getElementById('BG').style.background = newColor;
@@ -22,6 +24,7 @@
                             document.getElementById("dekaBtn").onclick = function () {
                             document.body.classList.toggle("is-blue");
                              }
+                            
                             
                         </script>
 
@@ -114,6 +117,7 @@
         </script>-->
 
 </html>
+
 
 
 
