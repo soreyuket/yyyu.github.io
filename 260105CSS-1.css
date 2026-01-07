@@ -40,7 +40,7 @@ h1 {
   font-weight: bold;
   display: inline-block;
 
-  animation: h1 5s linear infinite;
+  animation: h1 3s linear infinite;
   transition: font-size 0.8s;
 }
 
@@ -201,6 +201,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
