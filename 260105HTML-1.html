@@ -12,7 +12,7 @@
                 <div></div>
                 <button1 id="dekaBtn" onclick="clickDisplayAlert1();buttonClick('#0000ff')">???</button1>
                         <script>
-                            function clickDisplayAlert1() {
+                            document.getElementById("dekaBtn").onclick = function () {
                               alert("押したね。押しましたね。ボタンを。ありがとう。");
                             }
                             function buttonClick( newColor ){
@@ -113,6 +113,7 @@
         </script>-->
 
 </html>
+
 
 
 
