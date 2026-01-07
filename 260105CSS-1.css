@@ -27,7 +27,7 @@ body.is-brack {
 
 
 h1 {
-  font-family: "MS Serif", "New York", serif;
+  font: "MS Serif", "New York", "serif";
   background: linear-gradient(
     to right,
     #e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783
@@ -202,6 +202,7 @@ box2{
 	position:relative;
 
 }
+
 
 
 
