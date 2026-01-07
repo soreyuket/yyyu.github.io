@@ -68,21 +68,7 @@
                             <script>
                             document.getElementById("BTBtn").onclick = function () {
                                 document.getElementById("BTsound").play();
-    
-    let text = "もっと楽しい冒涜を!(旧支配者のキャロル)_オルゴールバージョン)";
-    let i = 0;
-    let output = document.getElementById("BTtext");
-
-    let timer = setInterval(function () {
-      output.textContent += text[i];
-      i++;
-
-      if (i >= text.length) {
-        clearInterval(timer);
-      }
-    }, 100);
-                            };
-                                
+                                document.getElementById("BTtext").textContent = "もっと楽しい冒涜を！(旧支配者のキャロル(~オルゴールバージョン~))";
                             document.body.classList.toggle("is-brack");
                              }
                             
@@ -109,6 +95,7 @@
         </script>-->
 
 </html>
+
 
 
 
