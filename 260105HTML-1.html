@@ -67,24 +67,30 @@
                     <p id="BTtext"></p>
                             <script>
                             document.getElementById("BTBtn").onclick = function () {
-                                document.getElementById("BTsound").play();
-                                  let text = "もっと楽しい冒涜を！(旧支配者のキャロル(~オルゴールバージョン~))";
-    let i = 0;
-    let output = document.getElementById("BTtext");
 
-    let timer = setInterval(function () {
-      output.textContent += text[i];
-      i++;
+                                
+                              // 音
+  document.getElementById("BTsound").play();
 
-      if (i >= text.length) {
-        clearInterval(timer);
-      }
-    }, 100);
-                               /* document.getElementById("BTtext").textContent = "もっと楽しい冒涜を！(旧支配者のキャロル(~オルゴールバージョン~))";*/
-                            document.body.classList.toggle("is-brack");
-                            document.getElementById("BTtext").classList.toggle("is-red");
-                             }
-                            
+  // 文字
+  let text = "もっと楽しい冒涜を！(旧支配者のキャロル)";
+  let i = 0;
+  let output = document.getElementById("BTtext");
+  output.textContent = "";
+
+  let timer = setInterval(function () {
+    output.textContent += text[i];
+    i++;
+
+    if (i >= text.length) {
+      clearInterval(timer);
+    }
+  }, 100);
+
+  // 見た目
+  document.body.classList.toggle("is-black");
+  output.classList.toggle("is-red");
+};
                         </script>
                     
                     <div>
@@ -108,6 +114,7 @@
         </script>-->
 
 </html>
+
 
 
 
